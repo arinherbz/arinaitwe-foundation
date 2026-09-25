@@ -23,8 +23,11 @@ Then open **http://localhost:4173**
 
 ## Notes
 
-- All content (mission, stats, programs, contact details) is **placeholder**
-  copy — easy to edit directly in `index.html`.
+- **No fabricated metrics.** This is a starting project, so the site shows no
+  invented impact numbers — the "impact" section states plainly that data will
+  be published only when real, verifiable results exist.
+- All other content (mission, programs, contact placeholders) is **starter
+  copy** — easy to edit directly in `index.html`.
 - The contact form is client-side only (demo). Wire it to your backend or an
   email/form service before going live.
 - Fonts are system fonts (no external dependencies) so it runs fully offline.
