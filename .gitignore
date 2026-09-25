@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# local server logs
+*.log
+
+# build/deploy dirs if we move to Next.js later
+.next/
+node_modules/
+.vercel/
