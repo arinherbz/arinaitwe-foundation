@@ -30,7 +30,8 @@ Then open **http://localhost:4173**
   copy** — easy to edit directly in `index.html`.
 - The contact form is client-side only (demo). Wire it to your backend or an
   email/form service before going live.
-- Fonts are system fonts (no external dependencies) so it runs fully offline.
+- Fonts load from **Google Fonts** (Fraunces + Inter) with graceful system
+  fallbacks, so the site still looks right when offline.
 
 ## Next steps (if you want)
 

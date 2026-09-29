@@ -3,14 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Arinaitwe Foundation — Hope. Growth. Community.</title>
-  <meta name="description" content="The Arinaitwe Foundation supports community-led development, education, and wellbeing for underserved communities across East Africa.">
+  <title>Arinaitwe Foundation — Rooted in community. Honest from day one.</title>
+  <meta name="description" content="Arinaitwe Foundation is a new, community-led foundation working for education, health, and enterprise in East Africa — committed to publishing only real, verifiable results.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23123c2e'/%3E%3Ctext x='32' y='40' font-size='24' font-family='Georgia' fill='%23e5c158' text-anchor='middle'%3EAF%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="site-header" id="siteHeader">
     <div class="container nav-wrap">
       <a class="brand" href="#top">
         <span class="brand-mark" aria-hidden="true">AF</span>
@@ -20,185 +26,200 @@
         <span></span><span></span><span></span>
       </button>
       <nav id="nav-menu" class="nav-menu" aria-label="Primary">
-        <a href="#about">About</a>
+        <a href="#beliefs">Why we exist</a>
         <a href="#pillars">Pillars</a>
-        <a href="#programs">Programs</a>
-        <a href="#impact">Impact</a>
-        <a href="#contact" class="btn btn-sm">Get involved</a>
+        <a href="#programmes">Programmes</a>
+        <a href="#journey">How we're starting</a>
+        <a href="#contact" class="btn btn-sm btn-gold">Get involved</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
     <section id="top" class="hero">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <p class="eyebrow">Community • Education • Health • Enterprise</p>
-        <h1>Building lasting hope where it starts — <span>in the community.</span></h1>
-        <p class="lede">The Arinaitwe Foundation empowers local leaders and underserved communities across East Africa through education, healthcare, and sustainable enterprise.</p>
-        <div class="hero-actions">
-          <a class="btn btn-gold" href="#programs">Explore our work</a>
-          <a class="btn btn-ghost" href="#contact">Partner with us</a>
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow-light">A new foundation · honest from the start</p>
+          <h1>Rooted in community.<br><span class="accent">Honest from day one.</span></h1>
+          <p class="lede">Arinaitwe Foundation is in its earliest days. We are listening to the communities of East Africa, designing our first programmes with them — and committing to publish only real, verifiable results.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#journey">See how we're starting <span class="arrow">→</span></a>
+            <a class="btn btn-ghost" href="#contact">Get involved</a>
+          </div>
         </div>
-        <ul class="hero-stats">
-          <li><strong>Starting</strong><span>Foundation in its early days</span></li>
-          <li><strong>Real only</strong><span>No invented impact figures</span></li>
-          <li><strong>Piloting</strong><span>First programmes in design</span></li>
-          <li><strong>100%</strong><span>Transparent reporting as we grow</span></li>
-        </ul>
+        <figure class="hero-figure">
+          <svg class="landscape" viewBox="0 0 480 360" role="img" aria-label="Illustrated landscape: sun over rolling hills">
+            <defs>
+              <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f3e6c9"/>
+                <stop offset="1" stop-color="#f9f3e4"/>
+              </linearGradient>
+              <linearGradient id="hillBack" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#7c9a88"/>
+                <stop offset="1" stop-color="#5f8168"/>
+              </linearGradient>
+              <linearGradient id="hillFront" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#2f6b4f"/>
+                <stop offset="1" stop-color="#123c2e"/>
+              </linearGradient>
+            </defs>
+            <rect width="480" height="360" fill="url(#sky)"/>
+            <circle cx="352" cy="112" r="46" fill="#e5c158"/>
+            <circle cx="352" cy="112" r="40" fill="#efd375" opacity="0.55"/>
+            <path d="M0 230 C 90 196 190 214 300 202 420 224 480 214 L480 240 L0 240 Z" fill="url(#hillBack)"/>
+            <path d="M0 280 C 120 250 260 272 380 254 480 282 L480 300 L0 300 Z" fill="url(#hillFront)"/>
+            <path d="M0 300 L480 300 L480 360 L0 360 Z" fill="#0e1f18"/>
+            <circle cx="90" cy="330" r="7" fill="#e5c158"/>
+            <path d="M70 310 Q 90 285 110 310" stroke="#2f6b4f" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M90 330 Q 150 310 200 330" stroke="#2f6b4f" stroke-width="4" fill="none" stroke-linecap="round"/>
+          </svg>
+          <figcaption>Illustration — real photography will replace this as the work begins.</figcaption>
+        </figure>
       </div>
+      <p class="hero-honesty"><strong>Honesty pledge:</strong> no invented numbers on this site. Impact figures will come from the field, not from this page.</p>
     </section>
-
-    <section id="about" class="about section">
-      <div class="container about-grid">
-        <div class="about-copy">
-          <p class="eyebrow">Who we are</p>
-          <h2>Community-led change, sustained for generations.</h2>
-          <p>The Arinaitwe Foundation works hand-in-hand with villages and neighbourhoods to design solutions that fit their realities — because change that a community owns is change that lasts.</p>
-          <p>We focus on what unlocks everything else: education that opens doors, healthcare that arrives in time, and dignified livelihoods that keep people self-reliant.</p>
-          <a class="btn btn-ghost-dark" href="#pillars">Read our pillars</a>
-        </div>
-        <div class="about-card">
-          <h3>Our mission</h3>
-          <blockquote>“To walk alongside underserved communities in East Africa, equipping local leaders and families with the tools, skills, and connections to build healthier, educated, and economically resilient futures.”</blockquote>
-          <ul class="mission-list">
-            <li>Rooted in community priorities</li>
-            <li>Partner-led, transparency-first</li>
-            <li>Lifelong capacity building</li>
-          </ul>
+    <section id="beliefs" class="beliefs section section-cream">
+      <div class="container">
+        <p class="eyebrow">Why we exist</p>
+        <h2 class="display">Development that ignores a community rarely survives it.</h2>
+        <p class="big-paragraph">We start from a simple conviction: lasting change is designed <em>with</em> communities, not <em>for</em> them. So our beginning is deliberately small, local, and transparent — and we would rather show you nothing than show you a number we made up.</p>
+        <div class="belief-grid">
+          <div class="belief"><span class="belief-num">01</span><h3>Listen first</h3><p>We begin every conversation by hearing what people say they need — not what funders expect to hear.</p></div>
+          <div class="belief"><span class="belief-num">02</span><h3>Co-design everything</h3><p>Community leaders and local partners shape our programmes from the first sketch, not the final draft.</p></div>
+          <div class="belief"><span class="belief-num">03</span><h3>Report the real thing</h3><p>When results exist, we publish them plainly — dated, sourced, and including what did not work.</p></div>
         </div>
       </div>
     </section>
 
     <section id="pillars" class="pillars section section-dark">
       <div class="container">
-        <p class="eyebrow">What we do</p>
-        <h2>Three pillars, one goal: thriving communities.</h2>
+        <p class="eyebrow eyebrow-light">What we stand for</p>
+        <h2 class="display">Three pillars, one foundation.</h2>
         <div class="pillar-grid">
           <article class="pillar">
-            <div class="pillar-icon" aria-hidden="true">&#127891;</div>
+            <svg class="pillar-icon" viewBox="0 0 48 48" role="img" aria-label="Open book icon">
+              <rect width="48" height="48" rx="10" fill="#fdf6e3"/>
+              <path d="M12 30 L36 30 L36 16 L12 16 Z" fill="none" stroke="#c89b2e" stroke-width="2.4"/>
+              <path d="M17 28 V20 M28 28 V22" stroke="#c89b2e" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M12 30 L36 30 L36 38 L12 38 Z" fill="none" stroke="#c89b2e" stroke-width="2.4"/>
+            </svg>
             <h3>Education</h3>
-            <p>Scholarships, learning materials, and teacher support so every child — especially girls — can stay in school and succeed.</p>
+            <p>Scholarships, learning materials, and teacher support — so every child, especially girls, can stay in school and succeed.</p>
           </article>
           <article class="pillar">
-            <div class="pillar-icon" aria-hidden="true">&#10010;</div>
-            <h3>Health &amp; Wellbeing</h3>
-            <p>Mobile clinics, maternal-child health outreach, clean water, and health literacy in communities underserved by formal systems.</p>
+            <svg class="pillar-icon" viewBox="0 0 48 48" role="img" aria-label="Heart with pulse icon">
+              <rect width="48" height="48" rx="10" fill="#fdf6e3"/>
+              <path d="M24 26 a12 12 0 0 1 0 0 Z" fill="#c89b2e"/>
+              <path d="M24 34 L36 34 L46 30" stroke="#c89b2e" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </svg>
+            <h3>Health &amp; wellbeing</h3>
+            <p>Mobile clinics, maternal and child-health outreach, clean water, and health literacy in communities underserved by formal systems.</p>
           </article>
           <article class="pillar">
-            <div class="pillar-icon" aria-hidden="true">&#127970;</div>
-            <h3>Sustainable Enterprise</h3>
+            <svg class="pillar-icon" viewBox="0 0 48 48" role="img" aria-label="Growing sprout icon">
+              <rect width="48" height="48" rx="10" fill="#fdf6e3"/>
+              <path d="M24 38 L24 22" stroke="#c89b2e" stroke-width="2.4" stroke-linecap="round"/>
+              <path d="M24 26 Q 16 18 12 24" stroke="#c89b2e" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+              <path d="M24 26 Q 32 18 36 24" stroke="#c89b2e" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+              <circle cx="24" cy="40" r="3.4" fill="#c89b2e"/>
+            </svg>
+            <h3>Sustainable enterprise</h3>
             <p>Village savings groups, skills training, and seed grants that help families build dignified, self-sustaining incomes.</p>
           </article>
         </div>
       </div>
     </section>
-    <section id="programs" class="programs section">
+    <section id="programmes" class="programmes section">
       <div class="container">
-        <p class="eyebrow">Our programs</p>
-        <h2>Programs that meet people where they are.</h2>
-        <div class="program-grid">
-          <article class="program">
-            <span class="program-tag">Education</span>
-            <h3>Girls Rising Scholarship</h3>
-            <p>School fees, mentorship, and sanitary support for secondary-school girls from low-income households.</p>
-          </article>
-          <article class="program">
-            <span class="program-tag">Health</span>
-            <h3>Mobile Clinic Outreach</h3>
-            <p>Quarterly pop-up clinics bringing screening, immunisation, and maternal care to rural villages.</p>
-          </article>
-          <article class="program">
-            <span class="program-tag">Water</span>
-            <h3>Clean Water for All</h3>
-            <p>Protected boreholes and rain-harvesting systems with local water committees to own upkeep.</p>
-          </article>
-          <article class="program">
-            <span class="program-tag">Enterprise</span>
-            <h3>Saving-to-Living Groups</h3>
-            <p>Village savings and loan circles paired with financial literacy and start-up grants for youth.</p>
-          </article>
-          <article class="program">
-            <span class="program-tag">Capacity</span>
-            <h3>Teacher Support Network</h3>
-            <p>Learning materials, training days, and stipends that keep quality teachers in rural classrooms.</p>
-          </article>
-          <article class="program">
-            <span class="program-tag">Leadership</span>
-            <h3>Next-Gen Leaders</h3>
-            <p>A two-year fellowship nurturing young community organisers and changemakers.</p>
-          </article>
+        <p class="eyebrow">Our programmes</p>
+        <h2 class="display">Programmes being shaped with communities.</h2>
+        <p class="big-paragraph programme-note">Each idea below is in its <strong>design phase</strong>. Names, details, and locations will come out of community conversations — we won't over-promise before we've listened.</p>
+        <div class="programme-grid">
+          <article class="programme reveal"><span class="programme-tag">Education · in design</span><h3>Girls Rising Scholarship</h3><p>Fees, mentorship, and support so secondary-school girls from low-income households can stay in school.</p></article>
+          <article class="programme reveal"><span class="programme-tag">Health · in design</span><h3>Mobile Clinic Outreach</h3><p>Pop-up clinics bringing screening, immunisation, and maternal care to villages far from health facilities.</p></article>
+          <article class="programme reveal"><span class="programme-tag">Water · in design</span><h3>Clean Water for All</h3><p>Protected boreholes and rain-harvesting systems with local water committees owning the upkeep.</p></article>
+          <article class="programme reveal"><span class="programme-tag">Enterprise · in design</span><h3>Saving-to-Living Groups</h3><p>Village savings circles paired with financial literacy and start-up grants for young people.</p></article>
+          <article class="programme reveal"><span class="programme-tag">Capacity · in design</span><h3>Teacher Support Network</h3><p>Materials, training days, and stipends that keep quality teachers in rural classrooms.</p></article>
+          <article class="programme reveal"><span class="programme-tag">Leadership · in design</span><h3>Next-Gen Leaders</h3><p>A fellowship that nurtures young community organisers and changemakers.</p></article>
         </div>
       </div>
     </section>
-
-    <section id="impact" class="impact section section-cream">
+    <section id="journey" class="journey section section-dark">
       <div class="container">
-        <p class="eyebrow">Our impact</p>
-        <h2>Just getting started — and honest about it.</h2>
-        <p class="impact-lede">Arinaitwe Foundation is in its starting phase. We have <strong>no impact numbers to report yet — and we will not invent any.</strong> This page will only ever show real, verifiable results, published as our programmes launch and grow.</p>
-        <ul class="mission-list impact-commitments">
-          <li>Real results only — no fabricated, projected, or aspirational figures.</li>
-          <li>Updates dated and sourced, so progress can be checked by anyone.</li>
-          <li>Open about what we are still learning, including what has not worked.</li>
-        </ul>
+        <p class="eyebrow eyebrow-light">How we're starting</p>
+        <h2 class="display">A starting phase you can watch.</h2>
+        <p class="big-paragraph programme-note programme-note-light">No targets, no projections on this page — the timeline below is honest about where we are: at the very beginning.</p>
+        <ol class="timeline">
+          <li class="timeline-step reveal"><span class="timeline-dot" aria-hidden="true"></span><span class="timeline-phase">Now</span><h3>Listening</h3><p>Community conversations to learn what people actually need and want — before we design anything.</p></li>
+          <li class="timeline-step reveal"><span class="timeline-dot" aria-hidden="true"></span><span class="timeline-phase">Next</span><h3>Co-designing</h3><p>Small pilot programmes shaped with community leaders and local partners, tested on a human scale.</p></li>
+          <li class="timeline-step reveal"><span class="timeline-dot" aria-hidden="true"></span><span class="timeline-phase">Later</span><h3>Reporting</h3><p>Real outcomes published with dates and sources. Numbers begin when the work does — not before.</p></li>
+        </ol>
+        <blockquote class="journey-quote reveal">"We won't show you numbers until they're real. When the first programme reports back from the field, this page will publish it plainly — good or bad."</blockquote>
       </div>
     </section>
 
+    <section class="pledge section-cream">
+      <div class="container pledge-wrap">
+        <p class="eyebrow">Our pledge</p>
+        <p class="pledge-text">Honest zeros beat invented thousands — this page will only ever publish what we can prove.</p>
+      </div>
+    </section>
     <section id="contact" class="contact section">
       <div class="container contact-grid">
         <div class="contact-copy">
           <p class="eyebrow">Get involved</p>
-          <h2>Partner, volunteer, or refer a community.</h2>
-          <p>Whether you are an individual donor, an organisation, or a community leader, there is a way to walk with us.</p>
+          <h2 class="display">Come and walk with us.</h2>
+          <p class="big-paragraph">We're in the listening phase — the best moment to join a foundation is before it gets busy.</p>
           <ul class="mission-list">
-            <li><strong>Donate</strong> — support a scholarship, clinic, or borehole.</li>
-            <li><strong>Partner</strong> — bring programs to your district or sector.</li>
-            <li><strong>Volunteer</strong> — lend your skills, locally or remotely.</li>
+            <li><strong>Donate</strong> — giving lanes open as programmes launch; reach out and we'll talk through what fits.</li>
+            <li><strong>Partner</strong> — if you work with communities in East Africa, we want to hear from you.</li>
+            <li><strong>Volunteer</strong> — lend skills now, locally or remotely, while we're still small enough to be agile.</li>
           </ul>
         </div>
         <form class="contact-form" id="contactForm" novalidate>
+          <h3>Say hello</h3>
           <label for="name">Full name</label>
           <input id="name" name="name" type="text" placeholder="Your name" required>
           <label for="email">Email</label>
           <input id="email" name="email" type="email" placeholder="you@example.com" required>
           <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" placeholder="How would you like to get involved?" required></textarea>
-          <button class="btn btn-gold" type="submit">Send message</button>
-          <p class="form-note" id="formNote">This demo form isn't wired to a backend yet — wire it to your API or email service.</p>
+          <textarea id="message" name="message" rows="4" placeholder="How would you like to be part of this?" required></textarea>
+          <button class="btn btn-gold" type="submit">Send message <span class="arrow">→</span></button>
+          <p class="form-note">Demo form — wire it to your email service when ready. Nothing you type is sent anywhere yet.</p>
           <p class="form-status" id="formStatus" hidden aria-live="polite"></p>
         </form>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div>
-        <a class="brand brand-light" href="#top"><span class="brand-mark">AF</span><span>Arinaitwe <em>Foundation</em></span></a>
-        <p class="footer-note">A community-led foundation working for education, health, and enterprise across East Africa.</p>
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#top"><span class="brand-mark">AF</span><span class="brand-text">Arinaitwe <em>Foundation</em></span></a>
+        <p class="footer-note">A new, community-led foundation for education, health, and enterprise across East Africa — publishing real results, and nothing else.</p>
       </div>
-      <div>
-        <h4>Sitemap</h4>
+      <div class="footer-col">
+        <h4>On this page</h4>
         <ul>
-          <li><a href="#about">About</a></li>
+          <li><a href="#beliefs">Why we exist</a></li>
           <li><a href="#pillars">Pillars</a></li>
-          <li><a href="#programs">Programs</a></li>
-          <li><a href="#impact">Impact</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#programmes">Programmes</a></li>
+          <li><a href="#journey">How we're starting</a></li>
         </ul>
       </div>
-      <div>
-        <h4>Get in touch</h4>
+      <div class="footer-col">
+        <h4>Stay in touch</h4>
         <p class="footer-note">Contact details coming soon — we'll publish them here once we're ready to receive messages.</p>
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>© <span id="year">2026</span> Arinaitwe Foundation. All rights reserved.</p>
+      <p>© <span id="year">2026</span> Arinaitwe Foundation.</p>
+      <a class="footer-github" href="https://github.com/arinherbz/arinaitwe-foundation" target="_blank" rel="noopener">Open source on GitHub ↗</a>
     </div>
   </footer>
 
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
   <script src="script.js"></script>
 </body>
 </html>
